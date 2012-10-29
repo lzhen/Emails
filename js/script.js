@@ -10,9 +10,15 @@ $(document).ready(function(){
             $( "#divHeight" ).empty().append("height: " + $(this).height());
         }
     });
+    
     $('.ui-resizable-s').dblclick(function(){
         $("#divTest").height(150);
     });
+    
+    $("#contact").click(function(){
+ 		alert("Handler for .click() called.");
+	});
+
       
 
-      });
+});
